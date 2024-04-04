@@ -1,0 +1,22 @@
+<table border="0px;">
+    <tr>
+        <td colspan="5" class="SubTitulo">
+            <label>EFECTIVO</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <hr>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Importe:</label></td>
+        <td><input type="text" id="importe" name="importe" value="" size="16" maxlength="15" onfocus="msg('importe');" onblur="outMsg();" onkeypress="return valDecimales(event);" onkeydown="return valCopiarPegar(event);"/></td>
+        <td style="width: 10px;"></td>
+        <td><label>confirmar:</label></td>
+        <td><input type="text" id="importeC" name="importeC" value="" size="16" maxlength="15" onfocus="msg('importeC');" onblur="outMsg();" onkeypress="return valDecimales(event);" onkeydown="return valCopiarPegar(event);"/></td>
+    </tr>
+    <tr>
+        <td colspan="5"></td>
+    </tr>
+</table>

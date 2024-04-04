@@ -1,0 +1,66 @@
+/* 
+    Document   : campos
+    Created on : 27/07/2010, 10:48:23 AM
+    Author     : Alvaro R. Serrano G.
+    Description: Da estilo a todos los campos del proyecto
+*/
+/*******pago Credito*********************************************************/
+#resultado1 {
+    border: 3px outset #b32323;
+    margin: 0 auto;
+    width: 816px;
+    height: 200px;
+}
+#resultado table {
+    text-align: center;
+    margin: 0 auto;
+    border: solid;
+    width: 700px;
+    margin-top: 0.9em;
+    border-collapse:collapse;
+}
+#resultado td {
+    text-align: center;
+    border: 1px solid;
+}
+#resultado td h3 {
+    font-size: 16px;
+}
+#pagoA {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 600px;
+    background: #81BEF7;
+    color: #000;
+}
+#result table{
+    padding-top: 10px;
+    border: 3px ridge #b32323;
+    text-align: right;
+    width: 600px;
+}
+#result table th {
+    border: 1px ridge #b32323;
+    text-align: left;
+    width: 200px;
+}
+#result table td {
+    border: 1px ridge #b32323;
+    text-align: center;
+}
+
+
+#comis{
+    text-align: right;
+    color: #000;
+}
+#iva{
+    text-align: right;
+    color: #000;
+}
+#tPago{
+    text-align: right;
+    color: #000;
+
+}

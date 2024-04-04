@@ -1,0 +1,104 @@
+/* 
+    Document   : recibo
+    Created on : 29/04/2010, 01:41:00 PM
+    Author     : root
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+.Estilo1 {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Estilo2 {
+    font-size: 12px;
+}
+
+#Estilo3{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+root { 
+    display: block;
+}
+body {
+    /*background-image: url('../images/Rtelecomm.jpg');*/
+    /*color: #010101;*/
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#marcoR {
+    border-left: 250px;
+   /* text-align: center;*/
+    width: 800px;
+    margin: 0 auto;
+    border-color: #FF0000;
+}
+#recibo {
+    font-size: 12pt;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+#rdatos {
+
+}
+#rdatos table {
+    border-collapse:collapse;
+}
+.dat1 {
+    font-size: 10pt;
+    text-align: left;
+}
+.monto {
+    text-align: right;
+}
+#firma {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11pt;
+}
+#firma table {
+    width: 750px;
+    border-collapse:collapse;
+}
+.pie {
+    text-align: justify;
+    font-size: 11pt;
+    width: 700px;
+}
+#mletra {
+    text-align: center;
+}
+
+/****contrato****/
+#contrato {
+    margin: 0 auto;
+    width: 850px;
+}
+.recibo1{
+    font-size: 16px;
+    font-style: normal;
+}
+.recibo2{
+    font-size: 14px;
+    font-style: normal;
+}
+
+#btnImpG {background:steelblue url('../img/btnNormal.jpg');vertical-align: middle;border-radius: 5px; overflow: hidden; border: 0px;}
+#btnImpG   {
+    height: 37px;
+    width: 160px;
+    /*margin: 0% 40%;*/
+}
+.alT1 {position: relative; margin-top: -3px; float: left; width: 32px; }
+.alT4 {position: relative; margin-top: 2px;  font-size: 20px; float: right; width: 100px;}
+#btnImpG:hover {background: #AAAAAA url('../img/btnInf.jpg');cursor: pointer;color: #0175B9;}

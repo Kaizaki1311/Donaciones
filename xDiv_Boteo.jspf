@@ -1,0 +1,32 @@
+<table border="0px;">
+    <tr>
+        <td colspan="5" class="SubTitulo">
+            <label>BOTEO</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <hr>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5" style="height: 5px;"></td>
+    </tr>
+    <tr>
+        <td><label>Num. Bote:</label></td>
+        <td><input type="text" id="numBote" name="numBote" value="" size="16" maxlength="10" onfocus="msg('numBote');" onblur="outMsg(); $('numBote').value = PadLeft($('numBote').value, 10);" onkeypress="return isNumberKey(event);" onkeydown="return valCopiarPegar(event);"/></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="5" style="height: 5px;"></td>
+    </tr>
+    <tr align="left">
+        <td><label>Importe:</label></td>
+        <td><input type="text" id="impBote" name="impBote" value="" size="16" maxlength="15" onfocus="msg('impBote');" onblur="outMsg();" onkeypress="return valDecimales(event);" onkeydown="return valCopiarPegar(event);"/></td>
+        <td style="width: 10px;"></td>
+        <td><label>Confirmar:</label></td>
+        <td><input type="text" id="impBoteC" name="impBoteC" value="" size="16" maxlength="15" onfocus="msg('impBoteC');" onblur="outMsg();" onkeypress="return valDecimales(event);" onkeydown="return valCopiarPegar(event);"/></td>
+    </tr>
+</table>

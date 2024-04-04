@@ -1,0 +1,67 @@
+<%-- 
+    Document   : index
+    Created on : 29/03/2024, 11:13:00 PM
+    Author     : Hag
+--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" charset="UTF-8"/>
+        <title>DONACIONES</title>
+        <!--link rel="icon" type="image/gif" href="images/icoT.gif"-->
+        <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="estilo/cuerpo.css"/>
+        <script language="JavaScript" type="text/javascript" src="script/mootools-core-1.3.2-full-compat.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/event.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/eventAJax.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/funciones.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/validaEvent.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/validaCmp.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/validaciones.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/Eventos.js"></script> 
+        <script language="JavaScript" type="text/javascript" src="script/validaciones.js"></script>
+        <script language="JavaScript" type="text/javascript" src="script/validaCmp.js"></script>
+    </head>
+    <script>
+        const hoy = new Date();
+    </script>
+    <body background="images/Body_Pag.png">
+        <div id="marco">
+            <div id="titulo">
+                <div id="titulo_log" class="fixed">
+                    <div id="logo">Donaciones</div>
+                    <div id="menu">
+                        <ul>
+                            <li>
+                                <div align="center">
+                                    <img alt="Donaciones" src="images/logotipo.jpg" id="Uy" >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="subTitulo">
+                <table id="infEncabezado" border="0px;">
+                    <tr>
+                        <td rowspan="2"><div id="sig" class="Estilo3">Plataforma <b>v1</b></div></td>
+                        <td id="iLO"><div class="infLogin"><!--OFICINA:-->
+                                <script>document.write("001");</script>
+                            </div></td>
+                        <td>
+                            <div class="infServ">SERVICIOS EN L&Iacute;NEA:
+                                <label class="infFecha">
+                                    <script>document.write(hoy.toLocaleDateString());</script>
+                                    </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="iLU"><div class="infLogin">
+                                <script>document.write("USUARIO PRUEBAS");</script>
+                            </div></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>

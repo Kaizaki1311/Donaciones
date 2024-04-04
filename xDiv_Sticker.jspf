@@ -1,0 +1,88 @@
+<table border="0px;">
+    <tr>
+        <td  class="SubTitulo">
+            <label>STICKER</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <hr>
+        </td>
+    </tr>
+    <tr>
+        <td class="pasosCuadro pasosBack">
+            <label class="paso">PASO 1</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="pasosCuadro">
+            <table>
+                <tr align="left">
+                    <td><label>Codigo:</label></td>
+                    <td><input type="text" id="codigoStick" name="codigoStick" value="" size="18" maxlength="15" onfocus="msg('codigoStick');" onblur="outMsg();" onkeypress="return saltoEnt(this, event);" onkeydown="return valCopiarPegar(event);"/></td>
+                    <td style="width: 5px;"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="height: 5px;"></td>
+                </tr>
+                <tr align="left">
+                    <td><label>Folio:</label></td>
+                    <td><input type="text" id="folioStick" name="folioStick" value="" size="14" maxlength="5" onfocus="msg('folioStick');" onblur="outMsg('folioStick');" onkeypress="return isNumberKey(event);" onkeydown="return valCopiarPegar(event);"/></td>
+                    <td style="width: 5px;"></td>
+                    <td><label>Confirmar:</label></td>
+                    <td><input type="text" id="folio2Stick" name="folio2Stick" value="" size="14" maxlength="5" onfocus="msg('folio2Stick');" onblur="outMsg('folio2Stick');" onkeypress="return isNumberKey(event);" onkeydown="return valCopiarPegar(event);"/></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td class="pasosCuadro pasosBack">
+            <label class="paso">PASO 2</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="pasosCuadro">
+            <table border="0px;" onmouseover="msg('sticker');"  onmouseout="outMsg('sticker');">
+                <tr>
+                    <td colspan="5">
+                        <b>DAR CLICK SOBRE EL STICKER PARA SELECCIONAR</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="sticker1_Select" style="border: blueviolet solid 0px;">
+                        <img id="imgDonacion" src="images/Sticker-Ya_Me_Cai.gif" onclick="selectSticker('sticker1')"/>
+                        <br>
+                        <!--input type="radio" id="sticker1" name="sticker" value="sticker1"-->
+                        <label class="leyendaSticker">YO YA ME CA&Iacute; CON LA LANA</label>
+                    </td>
+                    <td style="width: 10px;"></td>
+                    <td id="sticker2_Select" style="border: blueviolet solid 0px;">
+                        <img id="imgDonacion" src="images/Sticker-Ya_Done.gif" onclick="selectSticker('sticker2')"/>
+                        <br>
+                        <!--input type="radio" id="sticker2" name="sticker" value="sticker2"-->
+                        <label class="leyendaSticker">YO YA DONE Y TU P&Aacute; CUANDO</label>
+                    </td>
+                    <td style="width: 10px;"></td>
+                    <td id="sticker3_Select" style="border: blueviolet solid 0px;">
+                        <img id="imgDonacion" src="images/Sticker-Gracias.gif" onclick="selectSticker('sticker3')"/>
+                        <br>
+                        <!--input type="radio" id="sticker3" name="sticker" value="sticker3"-->
+                        <label class="leyendaSticker">UN 1,000,000 DE GRACIAS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <input type="hidden" id="selec_Sticker" name="selec_Sticker" value=""/>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

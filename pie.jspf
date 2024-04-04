@@ -1,0 +1,147 @@
+
+
+<br/>
+<div id="avisoT">ATENTO AVISO</div>
+<div id="aviso">
+
+</div>
+<div class="fixed Estilo1" id="footer">
+    2015. 
+</div>
+<div id="proceso">
+</div>
+</div>
+<div id="procesoInt">
+    <img src="images/loading.gif" align="center" style=" margin-top: 5px " alt="Enviando" />
+    <div id="text"></div>
+</div>
+<script>
+    window.onload = function () {
+        divActivo(false, "respuestaConf");
+    }
+</script>
+<div id="respuestaConf">
+    <center>
+        <!--div id="confDatos" -->
+        <form id="form5" name="form5"  method="post" action="telecomm/Procesos" onsubmit="">
+            <table border="0px">
+                <!--tr>
+                    <td colspan="2" height="30px" ></td>
+                </tr-->
+                <tr>
+                    <td colspan="2" align="center">
+                        <label style="color: #CA2F2F; font-weight: bold;" >CONFIRMACION DE DATOS</label>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" >
+                        <label>Si la Informaci&oacute;n es CORRECTA Presiona el Bot&oacute;n <br> "ENVIAR"</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="10px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <!--label id="labelTexto">TIPO DE DONACION:</label-->
+                        <!--/td>
+                        <td align="left" -->
+                        <label id="labelTipoDonacion"></label>
+                        <input type="hidden" id="labelTipoDonacion1" name="labelTipoDonacion1"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" style="height: 30px; width: 50%;">
+                        <label id="labelTexto">DONATIVO:$</label>
+                    </td>
+                    <td align="left" >
+                        <label id="labelDonacion" onchange=""></label>
+                        <input type="hidden" id="CmpImporteC" name="CmpImporteC"/>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table border="0px;" id="tablaBotConf" style="width: 100%;">
+                            <td align="right" style="width: 50%;">
+                                <label id="labelNumBote">NUMERO DE BOTE:</label>
+                            </td>
+                            <td align="left" >
+                                <label id="labelNumBoteC"></label>
+                                <input type="hidden" id="CmpNumBote" name="CmpNumBote"/>
+                            </td>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table border="0px;" id="tablaTjConf" style="width: 100%;">
+                            <tr>
+                                <td align="right" style="width: 50%;">
+                                    <label id="labelFolio">TARJETA:</label>
+                                </td>
+                                <td align="left">
+                                    <label id="labelTjC"></label>
+                                    <input type="hidden" id="CmpTj" name="CmpTj"/>
+                                </td>
+                            </tr>
+                            <td align="right" style="width: 50%;">
+                                <label id="labelFolio">FOLIO TELETON:</label>
+                            </td>
+                            <td align="left">
+                                <label id="labelFolioC"></label>
+                                <input type="hidden" id="CmpFolTj" name="CmpFolTj"/>
+                            </td>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table border="0px;" id="tablaStickerConf" style="width: 100%;">
+                            <tr>
+                                <td align="right" style="width: 50%;">
+                                    <label id="labelCodigo">CODIGO:</label>
+                                </td>
+                                <td colspan="2" align="left">
+                                    <label id="labelCodigoC"></label>
+                                    <input type="hidden" id="CmpCodigo" name="CmpCodigo"/>
+                                </td>
+                            </tr>
+                            <td align="right">
+                                <label id="labelFolSticker">FOLIO STICKER:</label>
+                            </td>
+                            <td align="left">
+                                <label id="labelFolStickerC"></label>
+                                <input type="hidden" id="CmpFolStick" name="CmpFolStick"/>
+                                <input type="hidden" id="CmpSelStick" name="CmpSelStick" value=""/>
+                            </td>
+                            <td align="center">
+                                <img id="imgDonConfStick1" class="imgStickConf" src="images/Sticker-Ya_Me_Cai.gif" />
+                                <img id="imgDonConfStick2" class="imgStickConf" src="images/Sticker-Ya_Done.gif" />
+                                <img id="imgDonConfStick3" class="imgStickConf" src="images/Sticker-Gracias.gif" />
+                            </td>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="10px" ></td>                                               
+                </tr>                   
+            </table>
+            <input type="hidden" id="mtd" name="mtd" value="" size="1" />
+            <table id="btnConfDats" >
+                <tr>
+                    <td align="left" >
+                        <input type='button' id="regresarConf" name="regresarConf" value="Regresar" onclick="datConfirm(false);"/>
+                    </td>
+                    <td align="right" >
+                        <input type="button" id="pagar" name="pagar" value="ENVIAR" onclick="alert('Se envia proceso de operación');"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</div>
+</body>
+</html>

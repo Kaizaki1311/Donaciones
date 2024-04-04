@@ -1,0 +1,40 @@
+<table border="0px;">
+    <tr>
+        <td  class="SubTitulo">
+            <label>STICKER</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <hr>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr align="left">
+                    <td><label>Codigo:</label></td>
+                    <td><input type="text" id="codigoStick21" name="codigoStick21" value="" size="18" maxlength="15" onfocus="msg('codigoStick21');" onblur="outMsg();" onkeypress="return isNumberKey(event);" onkeydown="return valCopiarPegar(event);"/></td>
+                    <td style="width: 5px;"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="height: 5px;"></td>
+                </tr>
+                <tr align="left">
+                    <td><label>Folio:</label></td>
+                    <td><input type="text" id="folioStick21" name="folioStick21" value="" size="14" maxlength="6" onfocus="msg('folioStick21');" onblur="outMsg('folioStick21');" onkeypress="return isNumberKey(event);" onkeydown="return valCopiarPegar(event);"/></td>
+                    <td style="width: 5px;"></td>
+                    <td><label>Confirmar:</label></td>
+                    <td><input type="text" id="folio2Stick21" name="folio2Stick21" value="" size="14" maxlength="6" onfocus="msg('folio2Stick21');" onblur="outMsg('folio2Stick21');" onkeypress="return isNumberKey(event);" onkeydown="return valCopiarPegar(event);"/></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <br>
+        </td>
+    </tr>
+</table>

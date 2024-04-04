@@ -1,0 +1,52 @@
+/* 
+    Document   : cuerpo
+    Created on : 14/06/2010, 03:44:44 PM
+    Author     : Alvaro R. Serrano G.
+    version    : 1
+*/
+#ligas {
+   /* border: 1px solid;*/
+    width: 840px;
+    height: 220px;
+}
+#tablaP {
+    position: absolute;
+    text-align: left;
+    top: 160px;
+    left: 140px;
+ }
+#imgint {
+    position: absolute;
+    top: 140px;
+    left: 420px;
+}
+
+
+
+#regresar {
+    text-align: center;
+
+}
+
+#regTeleton{
+    text-align: center;
+    height: 50px;
+}
+
+.carga {
+    margin-top: 20px;
+    margin-left: 100px;
+    /*border: 1px ridge #b32323;*/
+    width: 300px;
+    height: 100px;
+}
+#credito {
+    border: 2px inset;
+}
+.pagoD {
+    padding-top: 20px;
+   /*border: 1px ridge #b32323;*/
+}
+.pagoD b{
+    color: #1e3f60;
+}
